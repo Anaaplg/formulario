@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background: #f0f8ff;
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+h2 {
+    width: 100%;
+    padding-left: 20px;
+    margin: 30px auto;
+    font-size: 30px;
+}
+
+/* main para estilizar o corpo da pagina*/
+main {
+    padding-top: 20px;
+    background-color: #e4e4e49e ;
+    width: 100%;
+    margin: 50px  auto; /* essa margem deixa todo o corpo */
+}
+
+/* lembrando que estilizo a form label e depois a form input*/
+form label {
+    display: block; /*para deixar um nome abaixo do outro*/
+    font-size: 20px; 
+    margin: 0 0 10px; /*margem de 10px para baixo, deixando o espaçamento  entre os nomes*/
+    margin-left: 25%;
+}
+
+/*criei essa class para que eu consiga estilizar os demias input de forma diferente*/
+.input-padrao {
+    
+    border: 1px solid #ccbbff ;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3); /*sombra da caixa*/
+    outline: 0; /* tira a borda de linha preta interna do input*/
+    border-radius: 5px;
+    display: block;
+    margin: 0 0 20px; /*margem de 20px para baixo*/
+    margin-left: 25%;
+    padding: 10px 25px; /*10px cima e baixo e 25px lados , lembrando que esse espaçamento é interno*/
+    width: 50%; /*largura do input*/
+}
+
+.tamanho-roupa label , .tamanho-calcado label , .tamanho-roupa-intima label ,.tamanho-calca label  {
+    display: inline;
+    margin: 0 0 10px;
+    margin-left: 25%;
+    margin-bottom: 30px;
+
+} 
+
+main select {
+    border: 1px solid  #ffffff58;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    display: inline;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+button {
+    cursor: pointer;
+    background:hsla(244, 92%, 46%, 0.938);
+    color: #ffffff;
+    font-weight: 600;
+    border: none;
+    width: 25%;
+    padding: 16px 0 ;
+    margin-top: 2rem;
+    border-radius: 0.8rem;
+    margin-bottom: 1.5rem;
+    margin-left: 35%;
+    box-shadow: 0px 20px 20px rgba(39, 168, 248, 0.2) ;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5) ; /*sobra do texto*/
+    transition: background 0.3s;
+
+}
+
+button:hover {
+    background: #1c76fc ;
+    
+}
+.img {
+
+    width: 50%;
+    margin: 20px  auto;
+    margin-left: 25%;
+    padding-bottom: 35px;
+}
+
+.footer {
+    color: #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    font-size: 20px; 
+    background-color: #e4e4e49e  ;
+    text-align: center;
+    line-height: 1.5em; /*espaco entre linhas*/
+}
+
+footer .local{
+    background: hsla(244, 92%, 46%, 0.938);
+    width: max-content ;
+    padding: 5px ;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5) ; 
+    color: #ffffff;
+    margin: 10px auto;
+    font-size: 20px;    
+}
+
+.i {
+    width: 70px;
+    display: inline;
+    padding: 20px;
+    color: #000000;
+}
+
+.input-padrao:focus , select:focus {  /*para deixar a cor no fundo ao clicar*/
+    background:  #bfbcce58;
+}
+
+
+
+
+
+
+
+
+
+
+

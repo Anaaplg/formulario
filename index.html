@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/93a8daea73.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,200;1,400&family=Red+Hat+Display:wght@400;500;700&family=Roboto&display=swap" rel="stylesheet">
+    <title>Formulário Verdade Social</title>
+</head>
+<body>
+
+       <div>
+         <h1>Verdade Social</h1>
+         <img src="imagens/Verdade.jpg" alt="Imagem">
+         <h2>Preencha o formulário abaixo com as informações solicitadas.</h2>
+     </div>
+          <main>
+             <form>
+                     <label for="nome"><strong>Nome</strong></label>
+                     <input type="text" id="nome" class="input-padrao" required="" placeholder="Seu nome">
+                        
+                     <label for="telefone"><strong>Telefone</strong></label>
+                     <input type="text" id="telefone" class="input-padrao" required="" placeholder="(XX) XXXXX-XXXX">
+                        
+                     <label for="endereco"><strong>Endereço</strong></label>
+                     <input type="text" id="endereco" class="input-padrao" required="" placeholder="Ex: Rua das flores, n.100" >
+                    
+                     <label for="idade"><strong>Idade</strong></label>
+                     <input type="text" id="idade" class="input-padrao" required="" placeholder="Sua idade">
+             
+                     <div class="tamanho-roupa">
+                         <label for="tamanho-roupa"><strong>Tamanho Blusa / Camisa</strong></label>
+                          <select id="tamanho-roupa">
+                            <option selected disabled value="">Selecione</option>
+                            <option>PP</option>
+                            <option>P</option>
+                            <option>M</option>
+                            <option>G</option>
+                            <option>GG</option>
+                            <option>XG</option>
+                            <option>Outros</option>
+                          </select>
+                     </div>
+
+                     <div class="tamanho-calca">
+                          <label for="tamanho-calca"><strong>Tamanho Calça</strong></label>
+                         <select id="tamanho-calca">
+                               <option selected disabled value="">Selecione</option>
+                               <option>34</option>
+                               <option>36</option>
+                               <option>38</option>
+                               <option>40</option>
+                               <option>42</option>
+                               <option>44</option>
+                               <option>Outros</option>
+                         </select>
+                     </div>
+                     
+                       <div class="tamanho-calcado">
+                            <label for="tamanho-calcado"><strong>Tamanho Calçado</strong></label>
+                         <select id="tamanho-calcado">
+                             <option selected disabled value="">Selecione</option>
+                             <option>34</option>
+                             <option>35</option>
+                             <option>36</option>
+                             <option>37</option>
+                             <option>38</option>
+                             <option>39</option>
+                             <option>40</option>
+                             <option>42</option>
+                             <option>44</option>
+                             <option>46</option>
+                             <option>Outros</option>
+                         </select>
+                      </div>
+                    
+                    <div class="tamanho-roupa-intima">
+                      <label for="tamanho-roupa-intima"><strong>Tamanho Roupa Íntima</strong></label>
+                     <select id="tamanho-roupa-intima">
+                           <option selected disabled value="">Selecione</option>
+                           <option>PP</option>
+                           <option>P</option>
+                           <option>M</option>
+                           <option>G</option>
+                           <option>GG</option>
+                           <option>XG</option>
+                           <option>Outros</option>
+    
+                        </select>
+                  </div>
+                
+                  <div >
+                        <label for="radio-roupa-de-cama">
+                        <input type="radio"  name="roupa-de-cama" value="radio-roupa-de-cama" id="radio-roupa-de-cama"><strong> Roupa De Cama</strong></label>
+                        <label for="radio-cesta-basica">
+                        <input type="radio"  name="cesta-basica" value="cesta-basica" id="radio-cesta-basica"><strong> Cesta Básica</strong></label>
+                        <label for="radio-kit-higiene">
+                        <input type="radio"  name="kit-higiene" value="kit-higiene" id="radio-kit-higiene"><strong> Kit Higiene</strong></label>
+                 </div>
+                
+                  <button class="button">Enviar Formulário</button>
+             </form>
+        </main>
+             <img class="img" src="imagens/logo.png" alt="logo">
+        
+            <footer>
+             <div class="footer">
+               <p class="local">Local</p>
+               <img class="i" src="imagens/map.png" alt="Icone de localização">
+               <p><strong>Vila Moema</strong></p>
+               <p>Rua Miguel Inácio Faraco, 196 <br> Tubarão - SC</p>
+             </div>
+          </footer>
+</body>
+</html>
